@@ -2,6 +2,8 @@
 
 body {
     background-color: rgb(242, 233, 228);
+    margin: auto;
+    
 }
 h1 {
     font-family: Lora, serif;
@@ -41,7 +43,7 @@ pre{
     display: flex;
     justify-content: center;
     background-color: rgb(154, 140, 152); 
-
+padding-inline-start: 0;
 }
 .page {
     width: 100%;
@@ -58,19 +60,24 @@ a {
     text-decoration: none;
     color: rgb(65, 65, 65);
 }
-img {
+.pic {
     width: 200px;
     float: left;
     padding-right: 2%;
     margin: auto;
+    margin-inline: auto;
+    
 }
 section{
     padding-top: 5%;
     padding-right: 10%;
     padding-bottom: 2%;
     padding-left: 10%;
-    margin:auto;
+    margin: 10px 10%;
     display: block;
+    max-width: 60em;
+  justify-content: center;
+    
 }
 .next .prev {
     text-align: center;
@@ -81,4 +88,30 @@ section{
 }
 .widePic {
     width: 300px;
+}
+.res {
+    text-align: center;
+    align-items: center;
+        max-width: 100%;
+
+
+}
+footer {
+    text-align: center;
+    background-color: rgb(154, 140, 152);
+    color: rgb(65, 65, 65);
+    font-family: Lora, serif;
+    padding-bottom: 1%;
+    
+}
+.homePic {
+
+    width: 30%;
+    border-radius: 20px;
+    margin: auto;
+    display: block;
+    padding-top: 1em;
+}
+.footH2 {
+    margin-top: 0%;
 }
